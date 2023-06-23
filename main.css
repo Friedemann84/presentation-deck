@@ -21,6 +21,14 @@ body {
 
 .slide {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide h2 {
+  font-size: 7rem;
+  font-family: ;
 }
 
 .slide:nth-of-type(even) {
