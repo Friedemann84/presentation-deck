@@ -6,9 +6,27 @@
   text-decoration: none;
 }
 
+body {
+  overflow: hidden;
+}
+
+
+
 .slides {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   width: 300vw;
+}
+
+.slide {
+  height: 100vh;
+}
+
+.slide:nth-of-type(even) {
+  background-color: aquamarine;
+}
+
+.slide:nth-of-type(odd) {
+  background-color: burlywood;
 }
